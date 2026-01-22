@@ -1,0 +1,13 @@
+analysis:
+  start_date: "2021-01-01"
+  rolling_window: 60
+  confidence_level: 0.95
+
+assets:
+  majors: ["BTC/USDT", "ETH/USDT"]
+  crisis_triggers: ["LUNA/USDT", "FTT/USDT"]
+  ecosystem: ["SOL/USDT", "AVAX/USDT", "LINK/USDT"]
+
+events:
+  luna_crash: "2022-05-07"
+  ftx_collapse: "2022-11-08"
